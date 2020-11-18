@@ -54,6 +54,14 @@ header .banner {
    text-align: center;
 }
 
+header .banner-pic {
+   /* position: relative; */
+   max-width: 250px;
+   max-height: 250px;
+   border-radius: 100%;
+   margin: 50px
+}
+
 header .banner-text { width: 100%; }
 header .banner-text h1 {
    font: 90px/1.1em 'opensans-bold', sans-serif;
@@ -438,6 +446,7 @@ ul#nav li.current a { color: #fe6928; }
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
+
 .portfolio-item .item-wrap a {
    display: block;
    cursor: pointer;
