@@ -1,4 +1,5 @@
 {
+  "homepage": "https://mmcclatchy.github.io/home/",
   "name": "personalportfolio",
   "version": "0.1.0",
   "homepage": "./",
@@ -14,6 +15,8 @@
     "react-scripts": "1.0.17"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "hg-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
