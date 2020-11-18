@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,YAEI,gBACA,iBACA,kBAAmB","file":"static/css/main.c6daaea8.css","sourcesContent":["svg,\n.skills {\n    max-width: 100px;\n    max-height: 100px;\n    margin: 0 25px 25px\n}\n\n\n// WEBPACK FOOTER //\n// ./src/App.css"],"sourceRoot":""}
