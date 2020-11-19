@@ -88,25 +88,38 @@ export default {
         "company":"Golden Needle Acupuncture and Herbal Supply",
         "title":"Customer Service Manager",
         "years":"January 2019 - July 2020",
-        "description":"Managed the customer service department, Reviewed processes and procedures in order to maximize efficiency and performance throughout the company, Performed performance evaluations for all customer service members, Troubleshot all problems/issues that arose within the company and worked with team members to implement corrective and preventative actions."
+        "description": [
+          "Managed the customer service department", 
+          "Reviewed processes and procedures in order to maximize efficiency and performance throughout the company", 
+          "Performed performance evaluations for all customer service members", 
+          "Troubleshot all problems/issues that arose within the company and worked with team members to implement corrective and preventative actions."
+        ]
       },
       {
         "company":"Self Employed",
         "title":"Acupuncturist",
         "years":"June 2014 - December 2018",
-        "description":"Focused on treating patients for mental and emotional health."
+        "description": ["Focused on treating patients for mental and emotional health."]
       },
       {
         "company":"Kutztown University",
         "title":"Information Technology Support Specialist",
         "years":"August 2002 - May 2004",
-        "description":"Installing and configuring hardware and software components, Troubleshooting hardware and software issues, Upgrading software on all computers."
+        "description": [
+          "Installing and configuring hardware and software components",
+          "Troubleshooting hardware and software issues", 
+          "Upgrading software on all computers."
+        ]
       },
       {
         "company":"East Penn School District",
         "title":"Information Technology Support Specialist",
         "years":"September 2000 - August 2002",
-        "description":"Installing and configuring hardware and software components, Troubleshooting hardware and software issues, Upgrading software on all computers."
+        "description": [
+          "Installing and configuring hardware and software components",
+          "Troubleshooting hardware and software issues", 
+          "Upgrading software on all computers."
+        ]
       }
     ],
     "skills":[
