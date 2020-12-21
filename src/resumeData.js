@@ -1,3 +1,5 @@
+import resumePdf from './McClatchy_Mark_Resume.pdf'
+
 export default {
   "main": {
     "name":"Mark McClatchy",
@@ -32,7 +34,7 @@ export default {
       "zip": "28805"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "resumedownload": resumePdf,
     "social":[
       // {
       //   "name":"facebook",
@@ -89,17 +91,21 @@ export default {
         "title":"Customer Service Manager",
         "years":"January 2019 - July 2020",
         "description": [
-          "Managed the customer service department", 
-          "Reviewed processes and procedures in order to maximize efficiency and performance throughout the company", 
-          "Performed performance evaluations for all customer service members", 
-          "Troubleshot all problems/issues that arose within the company and worked with team members to implement corrective and preventative actions."
+          "Promoted from Customer Service Representative to Manager within first year ", 
+          "Overhauled backorder operations that saved over $65,000 a year", 
+          "Maintained information for over 20,000 products on the online shopping cart services", 
+          "Reviewed over 200 invoices a day ensuring accuracy and correcting any mistakes before orders were shipped"
         ]
       },
       {
         "company":"Self Employed",
         "title":"Acupuncturist",
         "years":"June 2014 - December 2018",
-        "description": ["Focused on treating patients for mental and emotional health."]
+        "description": [
+          "Devised individually crafted treatments based upon the diagnosis",
+          "Cultivated deep rapport with patients to provide an atmosphere of trust and being listened to",
+          "Focusing on emotional and mental health, ushered patients through difficult and traumatic times",
+        ]
       },
       {
         "company":"Kutztown University",
@@ -144,6 +150,18 @@ export default {
         "image":"../mediumm.jpg",
         "url":"https://mediumm.herokuapp.com/"
       },
+      {
+        "title": "Triply",
+        "category": "Intuitive Algorithm Generated Roadtrip Itinerary Simulator and Planner.",
+        "image": "../triply.jpg",
+        "url": "https://triplyroadtripapp.herokuapp.com/",
+      },
+      {
+        "title": "Muse",
+        "category": "Creativity App",
+        "image": "../muse.jpg",
+        "url": "https://app-muse.herokuapp.com/"
+      }
     ]
   }
 }
