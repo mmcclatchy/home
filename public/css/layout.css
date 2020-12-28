@@ -254,7 +254,7 @@ ul#nav li.current a { color: #fe6928; }
 
 #resume {
    background: #fff;
-   padding-top: 90px;
+   padding-top: 20px;
    padding-bottom: 72px;
    overflow: hidden;
 }
@@ -278,10 +278,14 @@ ul#nav li.current a { color: #fe6928; }
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
+#resume #experience-buffer {
+   margin-bottom: 70px;
+}
+
 .education, .work {
-   margin-bottom: 48px;
+   /* margin-bottom: 48px; */
    padding-bottom: 24px;
-   border-bottom: 1px solid #E8E8E8;
+   /* border-bottom: 1px solid #E8E8E8; */
 }
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
@@ -309,6 +313,10 @@ ul#nav li.current a { color: #fe6928; }
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
+
+#skills-buffer {
+   margin-bottom: 70px;
+}
 
 .bars {
 	width: 95%;
@@ -445,6 +453,7 @@ ul#nav li.current a { color: #fe6928; }
    background: #ebeeee;
    padding-top: 90px;
    padding-bottom: 60px;
+   margin: 50px 0;
 }
 #portfolio h1 {
    font: 15px/24px 'opensans-semibold', sans-serif;
@@ -477,6 +486,8 @@ ul#nav li.current a { color: #fe6928; }
 .portfolio-item .item-wrap a {
    display: block;
    cursor: pointer;
+   width: 400px;
+   /* height: 300px; */
 }
 
 /* overlay */
@@ -524,8 +535,7 @@ ul#nav li.current a { color: #fe6928; }
 }
 .portfolio-item .item-wrap img {
    vertical-align: bottom;
-   height: 150px;
-   width: 100%;
+   height: 300px;
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {

@@ -40,7 +40,7 @@ class About extends Component {
                      ))}
                   <br />
                   <div className="row">
-                     <div className="columns contact-details">
+                     {/* <div className="columns contact-details">
                         <h2>Contact Details</h2>
                         <p className="address">
                            <span>{name}</span>
@@ -55,7 +55,7 @@ class About extends Component {
                         <p>
                            <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Resume</a>
                         </p>
-                     </div>
+                     </div> */}
                   </div>
                </div>
             </div>

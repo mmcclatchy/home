@@ -18,7 +18,7 @@ class Footer extends Component {
                   {networks}
               </ul>
 
-              <ul style={{ color: '#888'}}>
+              <ul style={{ color: '#bbb', fontSize: '16px', fontWeight: 'bold'}}>
                 <li>Mark McClatchy</li>
                 <li>Asheville, NC</li>
                 <li>markmcclatchy@gmail.com</li>
