@@ -8,11 +8,11 @@ export default {
     "description3": "",
     "description4": "",
     "image":"profilepic.png",
-    "bio1": `Computers have always been a part of my life. I started building them when I was 10 years old and my fascination only grew from there. In high school, I sought out engineering competitions and either started a club to pursue them or worked on my own. I also taught myself AutoCAD during study halls and other spare moments that I could find. As a young adult, I loved working in IT due to the problem solving that I was challenged by on a regular basis.`,
+    "bio1": `Computers have always been a part of my life. I started building them when I was 10 years old and my fascination only grew from there. In high school, I taught myself AutoCAD and sought out engineering competitions by starting a group or entering solo. As a young adult, I loved working in IT due to the problem solving that I was challenged by on a regular basis.`,
     
-    "bio2": `My trajectory shifted to a more inward journey where I studied psychology, massage therapy, and eventually Five Element Acupuncture. My focus was on self-awareness and emotional intelligence, working to bring myself and others to a life with fewer entanglements and an ease of being. It was here that I also became passionate about understanding what true leadership is and how that differs from authority.`,
+    "bio2": `In college, my trajectory shifted to a more inward journey where I studied psychology. That lead me to Five Element Acupuncture, where my primary focus was on self-awareness and emotional intelligence.`,
     
-    "bio3": `Eventually I realized that as much as I love Acupuncture, I am at my best in a team environment. After some time as a Customer Service Manager, I put together a list of qualities that I thrive in and worked to find a career that checked them all off. That is when I discovered my passion of software engineering. I signed up to attend App Academy and I could not have made a better choice to empower me towards sharpening my skills in JavaScript, React, Redux, Express, Node.js, Sequelize, Python, Flask, SQLAlchemy, PostgreSQL, HTML5, and CSS3.`,
+    "bio3": `Searching for something that challenged me more, I put together a list of qualities that I thrive in and worked to find a career that checked them all off. That is when I discovered my passion of software engineering. Attending App Academy could not have been a better choice to empower me towards sharpening my skills in JavaScript, React, Redux, Express, Node.js, Sequelize, Python, Flask, SQLAlchemy, PostgreSQL, HTML5, and CSS3.`,
     
     "specialtiesLabel": `Non-technical Specialties:`,
     
@@ -146,19 +146,19 @@ export default {
     "projects": [
       {
         "title":"Mediumm",
-        "category":"Blog Clone",
+        "category":"An online publishing platform",
         "image":"../mediumm.jpg",
         "url":"https://mediumm.herokuapp.com/"
       },
       {
         "title": "Triply",
-        "category": "Intuitive Algorithm Generated Roadtrip Itinerary Simulator and Planner.",
+        "category": "Algorithm driven road trip planner",
         "image": "../triply.jpg",
         "url": "https://triplyroadtripapp.herokuapp.com/",
       },
       {
         "title": "Muse",
-        "category": "Creativity App",
+        "category": "A creativity app for moving through writer’s block",
         "image": "../muse.jpg",
         "url": "https://app-muse.herokuapp.com/"
       }
