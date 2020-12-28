@@ -8,11 +8,13 @@ class Header extends Component {
          // var project = this.props.data.project;
          var profilepic= "images/"+this.props.data.image;
          var github = this.props.data.github;
+         var linkedin = this.props.data.linkedin;
          var name = this.props.data.name;
          var description1= this.props.data.description1;
          var description2= this.props.data.description2;
          var description3= this.props.data.description3;
          var description4= this.props.data.description4;
+         var resumeDownload = this.props.data.resumedownload;
          // var city= this.props.data.address.city;
          // var networks= this.props.data.social.map(function(network){
          //    return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
@@ -47,7 +49,15 @@ class Header extends Component {
                <hr />
                <ul className="social">
                   {/* <a href={project} className="button btn project-btn"><i className="fa fa-book"></i>Project</a> */}
-                  <a href={github} className="button btn github-btn"><i className="fa fa-github"></i>Github</a>
+                  <li>
+                     <a href={github} className="button btn github-btn"><i className="fa fa-github"></i>Github</a>
+                  </li>
+                  <li>
+                     <a href={linkedin} className="button btn linkedin-btn"><i className="fa fa-linkedin"></i>LinkedIn</a>
+                  </li>
+                  <li>
+                     <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Resume</a>
+                  </li>
                </ul>
             </div>
          </div>
