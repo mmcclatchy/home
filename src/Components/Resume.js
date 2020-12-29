@@ -33,7 +33,7 @@ class Resume extends Component {
     }
 
     return (
-      <section id="resume">
+      <section id="resume-section">
             
         <div id="skills"></div>
 
@@ -167,6 +167,8 @@ class Resume extends Component {
           <Portfolio data={this.props.portfolio}/>
           
           <div id="resume"></div>
+          
+          {/* <div id="resume-buffer"></div> */}
           
           <div className="row education" id='experience'>
             <div className="three columns header-col">
