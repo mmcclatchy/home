@@ -52,13 +52,13 @@ class Header extends Component {
                <ul className="social">
                   {/* <a href={project} className="button btn project-btn"><i className="fa fa-book"></i>Project</a> */}
                   <li>
-                     <a href={github} className="button btn github-btn"><i className="fa fa-github"></i>Github</a>
+                     <a href={github} className="button btn github-btn" target="_blank" rel="noopener noreferrer"><i className="fa fa-github"></i>Github</a>
                   </li>
                   <li>
-                     <a href={linkedin} className="button btn linkedin-btn"><i className="fa fa-linkedin"></i>LinkedIn</a>
+                     <a href={linkedin} className="button btn linkedin-btn" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin"></i>LinkedIn</a>
                   </li>
                   <li>
-                     <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Resume</a>
+                     <a href={resumeDownload} className="button" target="_blank" rel="noopener noreferrer"><i className="fa fa-download"></i>Resume</a>
                   </li>
                </ul>
             </div>

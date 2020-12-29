@@ -26,6 +26,7 @@ export default {
     "email": "markmcclatchy@gmail.com",
     "phone": "",
     "github":"https://github.com/mmcclatchy",
+    "linkedin": "https://www.linkedin.com/in/mark-mcclatchy-155367bb/",
     "project":"https://github.com/nordicgiant2/react-nice-resume",
     "address":{
       "street":"",
