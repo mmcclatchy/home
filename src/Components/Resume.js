@@ -166,7 +166,7 @@ class Resume extends Component {
           
           <Portfolio data={this.props.portfolio}/>
           
-          <div id="experience-buffer"></div>
+          <div id="resume"></div>
           
           <div className="row education" id='experience'>
             <div className="three columns header-col">

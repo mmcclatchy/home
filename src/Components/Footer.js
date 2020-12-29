@@ -12,7 +12,7 @@ class Footer extends Component {
     return (
       <footer>
 
-        <div className="row" id='footer'>
+        <div className="row" id='contact-info'>
             <div className="twelve columns">
               <ul className="social-links">
                   {networks}
