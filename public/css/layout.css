@@ -449,13 +449,13 @@ ul#nav li.current a { color: #fe6928; }
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
 
-#portfolio {
+#works {
    background: #ebeeee;
    padding-top: 90px;
    padding-bottom: 60px;
    margin: 50px 0;
 }
-#portfolio h1 {
+#works h1 {
    font: 15px/24px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
