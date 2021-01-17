@@ -453,13 +453,13 @@ ul#nav li.current a { color: #fe6928; }
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
 
-#works {
+#projects {
    background: #ebeeee;
    padding-top: 90px;
    padding-bottom: 60px;
    margin: 50px 0;
 }
-#works h1 {
+#projects h1 {
    font: 15px/24px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
@@ -468,9 +468,18 @@ ul#nav li.current a { color: #fe6928; }
    color: #95A3A3;
 }
 
+#projects .project_wrapper {
+   width: 100%;
+}
+
 #portfolio-wrapper {
    display: flex;
-   justify-content: center;
+   justify-content: space-evenly;
+}
+
+#portfolio-wrapper .portfolio-item {
+   width: 35%;
+   height: auto;
 }
 
 /* Portfolio Content */
@@ -548,8 +557,8 @@ ul#nav li.current a { color: #fe6928; }
 
 .portfolio-item .item-wrap img {
    vertical-align: bottom;
-   height: 350px;
-   width: 150%;
+   height: auto;
+   /* width: 150%; */
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {
