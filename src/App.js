@@ -17,6 +17,7 @@ function initializeReactGA() {
   ReactGA.pageview('/');
 } 
 
+initializeReactGA();
 
 class App extends Component {
 
@@ -34,7 +35,6 @@ class App extends Component {
   }
   
   
-  initializeReactGA();
 
   render() {
     return (
