@@ -10,6 +10,14 @@ import Contact from './Components/Contact';
 import Portfolio from './Components/Portfolio';
 import resumeData from './resumeData'
 
+
+
+function initializeReactGA() {
+  ReactGA.initialize('UA-123791717-1');
+  ReactGA.pageview('/');
+} 
+
+
 class App extends Component {
 
   constructor(props){
@@ -24,25 +32,9 @@ class App extends Component {
     ReactGA.pageview(window.location.pathname);
 
   }
-
-  // getResumeData(){
-  //   $.ajax({
-  //     url:'./resumeData.json',
-  //     dataType:'json',
-  //     cache: false,
-  //     success: function(data){
-  //       this.setState({resumeData: data});
-  //     }.bind(this),
-  //     error: function(xhr, status, err){
-  //       console.log(err);
-  //       alert(err);
-  //     }
-  //   });
-  // }
-
-  // componentDidMount(){
-  //   this.getResumeData();
-  // }
+  
+  
+  initializeReactGA();
 
   render() {
     return (
