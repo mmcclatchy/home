@@ -2,6 +2,12 @@ import React, { Component } from 'react';
 import ParticlesBg from "particles-bg";
 
 class Header extends Component {
+   constructor(props) {
+      super(props);
+      this.width = window.innerWidth;
+   }
+   
+   
    render() {
 
       if(this.props.data){
@@ -12,8 +18,8 @@ class Header extends Component {
          var name = this.props.data.name;
          var description1= this.props.data.description1;
          var description2= this.props.data.description2;
-         var description3= this.props.data.description3;
-         var description4= this.props.data.description4;
+         // var description3= this.props.data.description3;
+         // var description4= this.props.data.description4;
          var resumeDownload = this.props.data.resumedownload;
          // var city= this.props.data.address.city;
          // var networks= this.props.data.social.map(function(network){
@@ -23,7 +29,7 @@ class Header extends Component {
 
       return (
          <header id="home">
-         <ParticlesBg type="cobweb" color="#0d6ca8" bg={true} />
+         <ParticlesBg type="cobweb" color="#0d6ca8" bg={true} num={this.width > 750 ? 100 : 40} />
          <nav id="nav-wrap">
             <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
             <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
@@ -46,9 +52,9 @@ class Header extends Component {
                <h1 className="responsive-headline">{name}</h1>
                <h3>{description1}</h3>
                <h3>{description2}</h3>
-               <h3>{description3}</h3>
-               <h3>{description4}</h3>
-               <hr />
+               {/* <h3>{description3}</h3>
+               <h3>{description4}</h3> */}
+               {/* <hr /> */}
                <ul className="social">
                   {/* <a href={project} className="button btn project-btn"><i className="fa fa-book"></i>Project</a> */}
                   <li>

@@ -169,30 +169,30 @@ class Resume extends Component {
           <div id="resume"></div>
           
           {/* <div id="resume-buffer"></div> */}
+
+
+          <div className="row work" id='experience'>
+
+            <div className="three columns header-col">
+              <h1><span>Work Experience</span></h1>
+            </div>
+
+            <div className="nine columns main-col" id='work'>
+              {work}
+            </div>
+          </div>
           
-          <div className="row education" id='experience'>
+          <div className="row education" >
             <div className="three columns header-col">
               <h1><span>Education</span></h1>
             </div>
 
-            <div className="nine columns main-col">
+            <div className="nine columns main-col" id='education'>
               <div className="row item">
                 <div className="twelve columns">
                   {education}
                 </div>
               </div>
-            </div>
-          </div>
-
-
-          <div className="row work">
-
-            <div className="three columns header-col">
-              <h1><span>Work</span></h1>
-            </div>
-
-            <div className="nine columns main-col">
-              {work}
             </div>
           </div>
         

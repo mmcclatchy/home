@@ -99,8 +99,8 @@ export default {
         ]
       },
       {
-        "company":"Self Employed",
-        "title":"Acupuncturist",
+        "company":"Acupuncturist",
+        "title":"Self Employed",
         "years":"June 2014 - December 2018",
         "description": [
           "Devised individually crafted treatments based upon the diagnosis",
