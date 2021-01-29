@@ -112,7 +112,7 @@
 	   width: 48px;
 		height: 48px;
 		text-align: left;
-		background-color: #CC5200;
+		background-color: #0d6ca8;
 		position: relative;
       border: none;
       float: right;
@@ -123,7 +123,7 @@
 
       position: relative;
       top: 0px;
-      right: 30px;
+      right: 0px;
    }
 
 	#nav-wrap > a:before,
@@ -161,7 +161,7 @@
 	   display: block;
       padding: 30px 20px 48px 20px;
       background: #1f2024;
-      margin: 0 30px;
+      margin-left: 20%;
       clear: both;
    }
 
@@ -191,6 +191,9 @@
       padding-bottom: 12px;
       padding-top: 6px;
    }
+   header .banner-pic {
+      margin: 0 auto;
+   }
    header .banner-text h1 { font: 68px/1.1em 'opensans-bold', sans-serif; }
    header .banner-text h3 {
       font: 16px/1.9em 'librebaskerville-regular', serif;
@@ -205,9 +208,13 @@
    header .social {
       margin: 18px 0 24px 0;
       font-size: 24px;
-      line-height: 36px;      
+      line-height: 36px;  
+      display: flex;
+      flex-flow: column;    
+      align-items: center;
    }
    header .social li { margin: 0 10px; }
+   header .social .btn:first-child { margin-right: 0;}
 
     /* scrolldown link */
    header .scrolldown { display: none; }
@@ -215,6 +222,7 @@
 
    /* About Section
    -------------------------------------------------------------------- */
+   #about { padding: 15px 0 }
    #about .profile-pic { display: none; }
    #about .download .button {
       width: 100%;
@@ -226,6 +234,7 @@
 
    /* Resume Section
    --------------------------------------------------------------------- */
+   #resume { margin-bottom: 0;}
    #resume .header-col {
       padding-top: 0;
       margin-bottom: 48px;
@@ -234,8 +243,16 @@
    #resume h1 { letter-spacing: 3px; }
    #resume .main-col { padding-right: 30px; }
    #resume h3, #resume .info { text-align: center; }
+   #work, #education { margin-top: 40px; }
+   #work h3,
+   #education h3 {
+      font-size: 20px;
+   }
       
-   .bars { width: 100%; }
+   .bars { 
+      width: 100%; 
+      margin-top: 30px
+   }
 
 
    /* Call To Action Section
@@ -254,10 +271,27 @@
 
    /* Portfolio Section
    /* ----------------------------------------------------------------- */
-   #portfolio-wrapper .columns { margin-bottom: 40px; }
+   #projects { padding-top: 15px}
+   #portfolio-wrapper {
+      flex-flow: column;
+   }
+   #portfolio-wrapper h1 {
+      margin-bottom: ;
+   }
+   /* #portfolio-wrapper .columns { margin-bottom: 40px; } */
    .popup-modal {	max-width: 85%; }
-
-
+   
+   
+   /* Skills Section
+   /* ----------------------------------------------------------------- */
+   #skills {
+      margin-bottom: 0px;
+      
+   }
+   #skills .bars {
+      margin-top: 10px;
+   }
+   
    /* Testimonials Section
    ----------------------------------------------------------------------- */
    #testimonials .text-container { text-align: center; }
