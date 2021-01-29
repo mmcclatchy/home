@@ -10,6 +10,13 @@
 /* screenwidth less than 1024px
 --------------------------------------------------------------------- */
 @media only screen and (max-width: 1024px) {
+   body {
+      min-height: 100vh;
+      min-height: -webkit-fill-available;
+   }
+   html {
+      height: -webkit-fill-available;
+   }
 
     /* header styles
    ------------------------------------------------------------------ */
@@ -193,6 +200,7 @@
    }
    header .banner-pic {
       margin: 0 auto;
+      height: 150px;
    }
    header .banner-text h1 { font: 68px/1.1em 'opensans-bold', sans-serif; }
    header .banner-text h3 {
